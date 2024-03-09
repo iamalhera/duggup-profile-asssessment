@@ -1,8 +1,16 @@
 <script>
-
+        export let hover;
+    // console.log(hover);
 </script>
-<main>
+<div>
+    {#if hover === true}
+    <button class="CTABtnHover">
+    <!-- <button class="CTABtn"> -->
+        <slot />
+    </button>
+    {:else}
     <button class="CTABtn">
         <slot />
     </button>
-</main>
+    {/if}
+</div>

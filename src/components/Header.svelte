@@ -3,7 +3,7 @@
     import Hero from "./Hero.svelte";
 
 </script>
-<main>
+<div>
     <div class="flex flex-row justify-between items-center py-4">
         <img src="/assets/duggup_logo.svg" alt="duggup logo" >
         <div class="flex items-center justify-center gap-2 md:gap-8 ">
@@ -28,13 +28,13 @@
                 </div>
             </CTA>
             <div class="items-center justify-center gap-2 cursor-pointer hidden md:flex p-1 hover:bg-slate-200 hover:rounded-md">
-                <span class="outline overflow-hidden outline-1 rounded-full outline-neutral-700"><img src="/assets/user.jpg" alt="user"></span>
+                <span class="outline overflow-hidden outline-1 rounded-full outline-neutral-700"><img class="w-10 h-10" src="/assets/user.jpeg" alt="user"></span>
                 <p>Krishna Kiran</p>
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
-            <button class="flex md:hidden ml-0.5"><i class="fa-solid fa-bars"></i></button>
+            <button class="flex md:hidden mx-4"><i class="fa-solid fa-bars"></i></button>
         </div>
     </div>
     <hr class="dotted-line">
     <Hero />
-</main>
+</div>

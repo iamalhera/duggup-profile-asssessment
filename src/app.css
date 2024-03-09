@@ -17,9 +17,18 @@ span{
     border: none;
     border-bottom: 1.60px dotted gray; 
   }
-.CTABtn{
+.CTABtn, 
+.CTABtnHover{
     padding: 8px 13px;
     border: 1px solid #4D4D4D;
     border-radius: 6px;
     border-bottom: 4px solid #4D4D4D;
+}
+.CTABtnHover:hover{
+    padding: 8px 13px;
+    background-color: #0066FF;
+    /* border: 1px solid #0066FF; */
+    color: white;
+    border-radius: 6px;
+    border-bottom: 4px solid #003A91;
 }
