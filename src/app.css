@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+span{
+    font-family: inherit;
+    font-weight: inherit;
+}
+.dotted-line {
+    border: none;
+    border-bottom: 1.60px dotted gray; 
+  }
+.CTABtn{
+    padding: 8px 13px;
+    border: 1px solid #4D4D4D;
+    border-radius: 6px;
+    border-bottom: 4px solid #4D4D4D;
+}
