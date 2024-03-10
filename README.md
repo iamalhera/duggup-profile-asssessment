@@ -1,38 +1,67 @@
-# create-svelte
+# Project Title
+User Profile UI, DuggUp - Assessment, Frontend Engineer Role
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Demo link:
+Access this part of application at [staging-duggup-profile](https://staging-duggup-profile.netlify.app)
 
-## Creating a project
+## Table of Content:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [About The App](#about-the-app)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Approach](#approach)
+- [Status](#status)
+- [Credits](#credits)
+- [License](#license)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## About The App
+<strong>DuggUp</strong> is a no-nonsense social network for people in tech for people who want to build their personal brand by sharing their stories. And this is an assessment project for <strong>Frontend Engineer</strong> Role.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Screenshots
 
-## Developing
+![View](/static/assets/screenshots/dugggup_profilepage.png)
+![View](/static/assets/screenshots/dugggup_profilepage_2.png)
+![View](/static/assets/screenshots/dugggup_profilepage_mobile.png)
+![View](/static/assets/screenshots/dugggup_profilepage_mobile_2.png)
+![View](/static/assets/screenshots/dugggup_profilepage_mobile_navbar.png)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
+## Technologies
+I used `sveltekit`, `tailwindcss`, `CSS`, `HTML` to build it from scratch.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Setup
+- clone the repository
+- run `npm install` in your terminal
+- run `npm run dev` in your terminal
 
-## Building
+## Approach
+1. Initial Assessment:
+    - Reviewed the assessment document provided by Google and the Figma screen of DuggUp-Profile to understand the requirements and visual design.
+2. Frontend Development Perspective:
+    - Adopted the mindset of a Frontend Developer for DuggUp, focusing on both data management and the overall structure of the user interface.
+3. Modular Design Approach:
+    - Recognized the need for modularity and reusability in the profile page, given its nature as a core component of the application.
+4. Data Handling Strategy:
+    - Generated a dummy JSON representing user data, hypothetically sourced from `/profile/${username}`, and stored it in a SvelteKit store for easy access and management.
+5. Component Breakdown:
+    - Divided the UI into smaller, manageable components to enhance maintainability and scalability.
+    - Structured the parent `ProfilePage` component to encapsulate three main sections: `Header`, `Hero`, and `Main`.
+6. Responsive Design Consideration:
+    - Leveraged Tailwind CSS framework to build the profile section with a focus on responsiveness across various devices and screen sizes.
+7. Deployment:
+    - Utilized [Netlify](https://app.netlify.com) for seamless deployment, integrating with GitHub to automate the deployment process and make the project accessible online.
 
-To create a production version of your app:
+## Status
+[Staging-Duggup-Profile] is `Completed` as per assessments need but probably going to build the `Prod-DuggUp-Profile` .
 
-```bash
-npm run build
-```
+## Credits
+List of Help Guides:
+- [google](https://google.com)
+- [chatGPT](https://chat.openai.com)
+- [tailwindcss official doc](https://tailwindcss.com/)
+- [sveltekit official doc](https://kit.svelte.dev/)
 
-You can preview the production build with `npm run preview`.
+## License
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This is brought to you by [Alhera Ahmad](https://gentleshah.netlify.app)
