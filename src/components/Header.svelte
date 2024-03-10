@@ -1,5 +1,7 @@
 <script>
     import CTA from "./CTA.svelte";
+    import {openModal} from "../store";
+    import ProfileButton from "./ProfileButton.svelte";
     export let personalData;
 </script>
 <div class="sticky top-0 z-10 bg-white opacity-100">
@@ -26,12 +28,14 @@
                     <span class="pr-2">Post</span>
                 </div>
             </CTA>
-            <div class="items-center justify-center gap-2 cursor-pointer hidden md:flex p-1 hover:bg-slate-200 hover:rounded-md">
+            <ProfileButton personalData={personalData}/>
+            <!-- <ProfileButton personalData={personalData}/> -->
+            <!-- <div class="items-center justify-center gap-2 cursor-pointer hidden md:flex p-1 hover:bg-slate-200 hover:rounded-md">
                 <span class="outline overflow-hidden outline-1 rounded-full outline-neutral-700"><img class="w-10 h-10" src={personalData.profile_pic} alt={personalData.name}></span>
                 <p>{personalData.name}</p>
                 <i class="fa-solid fa-chevron-down"></i>
-            </div>
-            <button class="flex md:hidden mx-4"><i class="fa-solid fa-bars"></i></button>
+            </div> -->
+            <button on:click={()=> $openModal=true} class="flex md:hidden mx-4"><i class="fa-solid fa-bars"></i></button>
         </div>
     </div>
     <hr class="dotted-line">
