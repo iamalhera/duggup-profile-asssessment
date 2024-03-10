@@ -16,7 +16,7 @@ Access this part of application at [staging-duggup-profile](https://staging-dugg
 - [License](#license)
 
 ## About The App
-<strong>DuggUp</strong> is a no-nonsense social network for people in tech for people who want to build their personal brand by sharing their stories. And this is an assessment project for <strong>Frontend Engineer</strong> Role.
+<strong>DuggUp</strong> is a no-nonsense social network for people in tech who want to build their personal brand by sharing their stories. And this is an assessment project for <strong>Frontend Engineer</strong> Role.
 
 ## Screenshots
 
@@ -37,7 +37,7 @@ I used `sveltekit`, `tailwindcss`, `CSS`, `HTML` to build it from scratch.
 
 ## Approach
 1. Initial Assessment:
-    - Reviewed the assessment document provided by Google and the Figma screen of DuggUp-Profile to understand the requirements and visual design.
+    - Reviewed the assessment document provided in the form of Google-Doc and the Figma screen of DuggUp-Profile to understand the requirements and visual design.
 2. Frontend Development Perspective:
     - Adopted the mindset of a Frontend Developer for DuggUp, focusing on both data management and the overall structure of the user interface.
 3. Modular Design Approach:
@@ -46,7 +46,7 @@ I used `sveltekit`, `tailwindcss`, `CSS`, `HTML` to build it from scratch.
     - Generated a dummy JSON representing user data, hypothetically sourced from `/profile/${username}`, and stored it in a SvelteKit store for easy access and management.
 5. Component Breakdown:
     - Divided the UI into smaller, manageable components to enhance maintainability and scalability.
-    - Structured the parent `ProfilePage` component to encapsulate three main sections: `Header`, `Hero`, and `Main`.
+    - Structured the parent `ProfilePage` component to encapsulate three main sections: `Header`, `Hero`, and `MainContent`.
 6. Responsive Design Consideration:
     - Leveraged Tailwind CSS framework to build the profile section with a focus on responsiveness across various devices and screen sizes.
 7. Deployment:
