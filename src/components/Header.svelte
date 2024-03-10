@@ -1,5 +1,6 @@
 <script>
     import CTA from "./CTA.svelte";
+    export let personalData;
 </script>
 <div class="sticky top-0 z-10 bg-white opacity-100">
     <div class="flex flex-row justify-between items-center py-4">
@@ -26,8 +27,8 @@
                 </div>
             </CTA>
             <div class="items-center justify-center gap-2 cursor-pointer hidden md:flex p-1 hover:bg-slate-200 hover:rounded-md">
-                <span class="outline overflow-hidden outline-1 rounded-full outline-neutral-700"><img class="w-10 h-10" src="/assets/user.jpeg" alt="user"></span>
-                <p>Krishna Kiran</p>
+                <span class="outline overflow-hidden outline-1 rounded-full outline-neutral-700"><img class="w-10 h-10" src={personalData.profile_pic} alt={personalData.name}></span>
+                <p>{personalData.name}</p>
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
             <button class="flex md:hidden mx-4"><i class="fa-solid fa-bars"></i></button>
