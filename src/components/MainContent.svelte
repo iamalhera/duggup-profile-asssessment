@@ -1,15 +1,13 @@
 <script>
 
 </script>
-<main class="flex flex-col w-full  items-start md:items-center mx-auto mb-20">
-    <!-- <div class="relative flex items-start"> -->
-
+<main class="flex flex-col w-full  items-start md:items-center mx-auto mb-20 relative z-3">
         <div class="section relative flex ml-auto md:mr-auto md:ml-44  md:w-[70%] w-[90%]">
             <div class="absolute text-xs text-[#7A9299] top-[47.5%] md:left-[-3.9rem] left-[-3.15rem]">Dec 2023</div>
             <img class="object-none" src="/assets/bar_plain.jpg" alt="plain bar">
             <div class="ml-5 w-full  my-auto flex justify-between items-center">
                 <!-- card one -->
-                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg" >
+                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg cursor-pointer" >
                     <div class="overflow-auto">
                         <img class="object-cover h-36 w-full rounded-t-lg" src="/assets/blog_img_1.jpg" alt="blog 1">
                     </div>
@@ -17,8 +15,8 @@
                         <p class="text-xs lg:text-sm text-[#141618]">No amount of technology can convert a bad story into a good story.</p>
                     </div>
                 </div>
-                <!-- card two KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK -->
-                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg" >
+                <!-- card two  -->
+                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg cursor-pointer" >
                     <div class="overflow-auto">
                         <img class="object-cover h-36 w-full rounded-t-lg" src="/assets/blog_img_2.jpg" alt="blog 2">
                     </div>
@@ -49,7 +47,7 @@
             <img class="object-none" src="/assets/bar_plain.jpg" alt="plain bar">
             <div class="ml-5 w-full  my-auto flex justify-between items-center">
                 <!-- card three -->
-                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg" >
+                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg cursor-pointer" >
                     <div class="overflow-auto">
                         <img class="object-cover h-36 w-full rounded-t-lg" src="/assets/blog_img_3.jpg" alt="blog 3">
                     </div>
@@ -58,7 +56,7 @@
                     </div>
                 </div>
                 <!-- card four -->
-                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg" >
+                <div class="w-[45%] h-64 md:h-60 rounded-lg shadow-lg cursor-pointer" >
                     <div class="overflow-auto">
                         <img class="object-cover h-36 w-full rounded-t-lg" src="/assets/blog_img_4.png" alt="blog 4">
                     </div>
@@ -83,5 +81,4 @@
                 <div class="text-[#7A9299] text-xs">Full-time</div>
             </div>
         </div>
-    <!-- </div> -->
 </main>

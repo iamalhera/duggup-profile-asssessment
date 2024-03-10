@@ -1,13 +1,11 @@
 <script>
     import CTA from "./CTA.svelte";
-    import Hero from "./Hero.svelte";
-
 </script>
-<div>
+<div class="sticky top-0 z-10 bg-white opacity-100">
     <div class="flex flex-row justify-between items-center py-4">
         <img src="/assets/duggup_logo.svg" alt="duggup logo" >
         <div class="flex items-center justify-center gap-2 md:gap-8 ">
-            <div class="gap-2 hidden md:flex">
+            <div class="gap-2 lg:gap-4 hidden md:flex">
                 <div id="home" class="flex items-center justify-center cursor-pointer gap-1">
                     <img class="object-none" src="/assets/home_icon.jpg" alt="home">
                     <span>Home</span>
@@ -22,8 +20,8 @@
                 </div>
             </div>
             <CTA>
-                <div class="flex gap-3" >
-                    <img src="/assets/post_icon.jpg" alt="Post button icon"> 
+                <div class="flex gap-3 items-center" >
+                    <i class="fa-regular fa-square-plus"></i>
                     <span class="pr-2">Post</span>
                 </div>
             </CTA>
@@ -36,5 +34,4 @@
         </div>
     </div>
     <hr class="dotted-line">
-    <Hero />
 </div>

@@ -2,6 +2,6 @@
     import ProfilePage from "../components/ProfilePage.svelte";
 
 </script>
-<main>
+<main class="relative overflow-auto">
     <ProfilePage />
 </main>
