@@ -6,7 +6,7 @@
     }
 </script>
 <div class="flex px-6 md:px-16 py-12 items-center justify-between relative">
-    <div class="flex-col flex md:flex-row gap-14">
+    <div class="flex-col flex md:flex-row gap-14 lg:ml-20">
         <div>
             <img class="w-24 outline outline-[5px] outline-[#EAEFF5] rounded-full" src="/assets/user.jpeg" alt="">
             <p class="pt-2 text-lg md:text-2xl text-start md:text-center text-[#4B5C6D] font-[600]">Krishna Kiran</p>
